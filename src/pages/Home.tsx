@@ -68,7 +68,7 @@ const Home: React.FC = () => {
       description: 'Customized services designed for your society\'s specific needs. We take the time to understand your unique requirements and challenges, then craft solutions that fit perfectly—whether it’s compliance, financial management, or member engagement. Our flexible approach ensures you get exactly what your society needs to thrive, with ongoing support and regular reviews to adapt as your needs evolve.',
       icon: CheckCircle,
       color: 'from-green-500 to-emerald-500',
-      imageUrl: 'https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&w=1200&q=80'
+      imageUrl: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
     },
     {
       title: 'Proven Track Record',
@@ -88,6 +88,15 @@ const Home: React.FC = () => {
     >
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-slate-900 via-blue-900 to-indigo-900">
+
+        <div className='min-h-screen absolute inset-0 opacity-20'>
+            <img src="https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&w=1200&q=100" alt=""
+            className='w-full h-full object-cover'
+            />
+        </div>
+
+
+
         {/* Enhanced Animated Background Elements */}
         <div className="absolute inset-0">
           <motion.div
